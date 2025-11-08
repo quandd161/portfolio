@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Đỗ Đàm Quân - Fullstack Developer Intern - Cloud Resume Challenge">
+    <title>Đỗ Đàm Quân - Fullstack Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">Resume</div>
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-link">Về tôi</a></li>
+                <li><a href="#experience" class="nav-link">Kinh nghiệm</a></li>
+                <li><a href="#education" class="nav-link">Học vấn</a></li>
+                <li><a href="#skills" class="nav-link">Kỹ năng</a></li>
+                <li><a href="#projects" class="nav-link">Dự án</a></li>
+                <li><a href="#contact" class="nav-link">Liên hệ</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Xin chào, tôi là <span class="highlight">Đỗ Đàm Quân</span>
+                    </h1>
+                    <h2 class="hero-subtitle">Fullstack Developer</h2>
+                    <p class="hero-description">
+                        Sinh viên năng động với đam mê phát triển phần mềm, tìm kiếm cơ hội tham gia các dự án thực tế
+                        để nâng cao kỹ năng lập trình và mở rộng mạng lưới làm việc.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">Liên hệ với tôi</a>
+                        <a href="#projects" class="btn btn-secondary">Xem dự án</a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/quandd161" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="mailto:quan8122004@gmail.com">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="tel:0865969435">
+                            <i class="fas fa-phone"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-wrapper">
+                        <div class="image-placeholder">
+                            <i class="fas fa-user"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Visitor Counter -->
+        <div class="visitor-counter">
+            <i class="fas fa-eye"></i>
+            <span>Lượt xem: </span>
+            <span id="visitor-count" class="count">Loading...</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <h2 class="section-title">Mục tiêu nghề nghiệp</h2>
+            <div class="about-content">
+                <div class="about-card">
+                    <div class="card-icon">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <h3>Mục tiêu ngắn hạn</h3>
+                    <p>Tìm kiếm cơ hội tham gia các dự án thực tế để nâng cao kỹ năng lập trình và mở rộng mạng lưới làm
+                        việc.</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Mục tiêu dài hạn</h3>
+                    <p>Trở thành kỹ sư phần mềm chuyên nghiệp với kiến thức vững chắc, kỹ năng mạnh mẽ và đóng góp vào
+                        phát triển các giải pháp công nghệ tiên tiến.</p>
+                </div>
+            </div>
+            <div class="info-grid">
+                <div class="info-item">
+                    <i class="fas fa-birthday-cake"></i>
+                    <div>
+                        <strong>Ngày sinh:</strong>
+                        <span>08/12/2004</span>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <strong>Địa chỉ:</strong>
+                        <span>Hà Đông, Hà Nội</span>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <strong>Điện thoại:</strong>
+                        <span>0865969435</span>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <strong>Email:</strong>
+                        <span>quan8122004@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience section">
+        <div class="container">
+            <h2 class="section-title">Kinh nghiệm làm việc</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">4/2025 - 9/2025</div>
+                        <h3>Java Backend Developer</h3>
+                        <h4>Authentic Education Hub</h4>
+                        <ul>
+                            <li>Tham gia xây dựng nền tảng học tập trực tuyến cho sinh viên, áp dụng kiến trúc
+                                Microservice</li>
+                            <li>Tham gia phát triển hệ thống đặt đồ ăn trực tuyến</li>
+                            <li>Tham gia xây dựng các dự án sử dụng phương pháp Agile/Scrum</li>
+                            <li>Công nghệ: Microservice, Java, Spring, Redis, Kafka, Elasticsearch</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education section">
+        <div class="container">
+            <h2 class="section-title">Học vấn</h2>
+            <div class="education-card">
+                <div class="education-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div class="education-content">
+                    <h3>Posts and Telecommunications Institute of Technology (PTIT)</h3>
+                    <p class="education-major">Công nghệ thông tin - Information Technology</p>
+                    <p class="education-time">2022 - 2026</p>
+                    <p class="education-gpa"><strong>GPA:</strong> 3.54/4.0</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <div class="container">
+            <h2 class="section-title">Kỹ năng</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Technical Skills</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Java Core</span>
+                        <span class="skill-tag">OOP</span>
+                        <span class="skill-tag">Spring Boot</span>
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">Redis</span>
+                        <span class="skill-tag">Elasticsearch</span>
+                        <span class="skill-tag">Kafka</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-users"></i> Soft Skills</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Teamwork</span>
+                        <span class="skill-tag">Self-learning</span>
+                        <span class="skill-tag">Proactive at work</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <div class="container">
+            <h2 class="section-title">Dự án</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Fast Food Ordering Website</h3>
+                        <span class="project-date">2/2025 - 4/2025</span>
+                    </div>
+                    <p class="project-role"><strong>FullStack Developer</strong></p>
+                    <p class="project-description">
+                        Khách hàng muốn đặt đồ ăn nhanh một cách thuận tiện.
+                    </p>
+                    <div class="project-details">
+                        <p><strong>Team size:</strong> 1</p>
+                        <p><strong>Technologies:</strong></p>
+                        <ul>
+                            <li>BackEnd: Spring Boot API, SpringSecurity, SpringData JPA, Hibernate, JWT, MySQL</li>
+                            <li>FrontEnd: ReactJS, TailwindCSS, Redux</li>
+                        </ul>
+                        <p><strong>Responsibilities:</strong> Thiết kế UI, built database, implemented backend system
+                            and constructed FrontEnd.</p>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Interior E-commerce Website</h3>
+                        <span class="project-date">9/2024 - 11/2024</span>
+                    </div>
+                    <p class="project-role"><strong>BackEnd Developer</strong></p>
+                    <p class="project-description">
+                        Website cho khách hàng muốn mua đồ nội thất và trang trí nội thất.
+                    </p>
+                    <div class="project-details">
+                        <p><strong>Team size:</strong> 2</p>
+                        <p><strong>Technologies:</strong></p>
+                        <ul>
+                            <li>BackEnd: SpringMVC, Spring Security, Spring Data JPA, Thymeleaf, MySQL</li>
+                            <li>FrontEnd: HTML/CSS, JS, Bootstrap</li>
+                        </ul>
+                        <p><strong>Responsibilities:</strong> Database design, backend system development.</p>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Social Media Platform</h3>
+                        <span class="project-date">12/2024 - 1/2025</span>
+                    </div>
+                    <p class="project-role"><strong>BackEnd Developer</strong></p>
+                    <p class="project-description">
+                        Nền tảng mạng xã hội để chia sẻ, cập nhật hoạt động và tương tác.
+                    </p>
+                    <div class="project-details">
+                        <p><strong>Team size:</strong> 2</p>
+                        <p><strong>Technologies:</strong></p>
+                        <ul>
+                            <li>BackEnd: Spring Boot, SpringSecurity, Spring Data JPA, JWT, MySQL</li>
+                            <li>FrontEnd: ReactJS, TailwindCSS, Redux</li>
+                        </ul>
+                        <p><strong>Responsibilities:</strong> Built APIs for posting, commenting, liking, sharing,
+                            role-based access control, and notifications.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="certificates section">
+        <div class="container">
+            <h2 class="section-title">Chứng chỉ & Giải thưởng</h2>
+            <div class="certificates-grid">
+                <div class="certificate-card">
+                    <div class="certificate-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Certificate of completion - Data Structures and Algorithms</h3>
+                    <p class="certificate-issuer">Samsung PTIT</p>
+                    <p class="certificate-year">2024</p>
+                </div>
+                <div class="certificate-card">
+                    <div class="certificate-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>PTIT Entrance Valedictorian</h3>
+                    <p class="certificate-year">9/2022</p>
+                </div>
+                <div class="certificate-card">
+                    <div class="certificate-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>PTIT Merit-based Scholarships for Academic Excellence</h3>
+                    <p class="certificate-issuer">Semesters I, II, III, IV</p>
+                    <p class="certificate-year">2022-2024</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hobbies Section -->
+    <section class="hobbies section">
+        <div class="container">
+            <h2 class="section-title">Sở thích</h2>
+            <div class="hobbies-content">
+                <div class="hobby-item">
+                    <i class="fas fa-film"></i>
+                    <span>Xem phim</span>
+                </div>
+                <div class="hobby-item">
+                    <i class="fas fa-futbol"></i>
+                    <span>Chơi thể thao</span>
+                </div>
+                <div class="hobby-item">
+                    <i class="fas fa-gamepad"></i>
+                    <span>Chơi game</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <h2 class="section-title">Liên hệ</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <a href="mailto:quan8122004@gmail.com">quan8122004@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Điện thoại</h3>
+                            <a href="tel:0865969435">0865969435</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Địa chỉ</h3>
+                            <p>Hà Đông, Hà Nội</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <div>
+                            <h3>GitHub</h3>
+                            <a href="https://github.com/quandd161" target="_blank"
+                                rel="noopener noreferrer">github.com/quandd161</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Đỗ Đàm Quân. Cloud Resume Challenge Project.</p>
+            <p>Built with HTML, CSS & JavaScript</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
